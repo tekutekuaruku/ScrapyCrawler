@@ -1,24 +1,27 @@
 # ScrapyCrawler
 ## Description
-自作のクローラーをコマンドラインを用いて起動するプログラム
+自作のクローラーをコマンドラインを用いて起動するプログラム  
 フレームワーク「Scrapy」に独自のロジックを加えました  
 
 ## Requirement
 * pandas 1.3.1
-* GoogleApiClient 2.15.0
-
+* beautifulsoup4 4.9.3
+* readability-lxml 0.8.1
+* scrapy 2.4.1
+* protego 0.1.16 
 
 ## Installation
 - Pandas  
 ```pip install pandas```  
-- google-api-python-client  
-```pip install --upgrade google-api-python-client```  
-- protego
+- protego  
 ```pip install protego```
-- readability-lxml
+- readability-lxml  
 ```pip install readability-lxml```
-- Scrapy
+- Scrapy  
 ```pip install Scrapy```
+- beautifulsoup4  
+```pip install beautifulsoup4```
+
 
 
 ## Setup
